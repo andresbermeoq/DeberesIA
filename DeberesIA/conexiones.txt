@@ -1,0 +1,23 @@
+CREATE(c1:Azuay {name: 'Cuenca'}),
+      (c2:Azuay {name: 'Camilo Ponce Enríquez'}),
+      (c3:Azuay {name: 'Chordeleg'}),
+      (c4:Azuay {name: 'El Pan'}),
+      (c5:Azuay {name: 'Girón'}),
+      (c6:Azuay {name: 'Guachapala'}),
+      (c7:Azuay {name: 'Gualaceo'}),
+      (c8:Azuay {name: 'Nabón'}),
+      (c9:Azuay {name: 'Oña'}),
+      (c10:Azuay {name: 'Paute'}),
+      (c1)-[:CONEXION {distancia: 4}] ->(c2),
+      (c1)-[:CONEXION {distancia: 49}] ->(c3),
+      (c1)-[:CONEXION {distancia: 2}] ->(c4),
+      (c1)-[:CONEXION {distancia: 45}] ->(c5),
+      (c1)-[:CONEXION {distancia: 54}] ->(c6),
+      (c3)-[:CONEXION {distancia: 55}] ->(c4),
+      (c3)-[:CONEXION {distancia: 11}] ->(c7),
+      (c10)-[:CONEXION {distancia: 43}] ->(c1)
+
+
+
+
+
