@@ -1,0 +1,7 @@
+Links = $x('//div[@class="dbsr"]/a/@href').map( x => x.value)
+
+Title = $x('//div[@class="JheGif nDgy9d"]/text()').map(x => x.wholeText)
+
+Message = $x('//div[@class="Y3v8qd"]/text()').map( x => x.wholeText)
+
+Date = $x('//span[@class="WG9SHc"]/span/text()').map(x => x.wholeText)
