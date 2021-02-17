@@ -1,0 +1,123 @@
+CREATE (i1:Iglesia {name: 'Catedral de la Inmaculada Concepcion', latitude:-2.8972215498496765, longitude:-79.00533185154008}),
+       (i2:Iglesia {name: 'San Sebastian', latitude:-2.8954340735275768, longitude:-79.01098048158204}),
+       (i3:Iglesia {name: 'Catedral Vieja', latitude:-2.8977414374517827, longitude:-79.00384586428966}),
+       (i4:Iglesia {name: 'Iglesia del Carmen de la Asuncion', latitude:-2.8977193223327404, longitude:-79.0057635537124}),
+       (i5:Iglesia {name: 'Iglesia Santo Domingo', latitude:-2.8951723002380296, longitude:-79.00606637338059}),
+       (i6:Iglesia {name: 'Iglesia Maria Auxiliadora', latitude:-2.8923406774395106, longitude:-79.00514400392353}),
+       (i7:Iglesia {name: 'Iglesia Corazon de Jesus', latitude:-2.893204296962203, longitude:-79.01481316150002}),
+       (i8:Iglesia {name: 'Iglesia San Alfonso', latitude:-2.8969721902535768, longitude:-79.00278548458594}),
+       (i9:Iglesia {name: 'Iglesia San Blas', latitude:-2.8983890433974615, longitude:-78.99785478128697}),
+       (i10:Iglesia {name: 'Iglesia La Merced', latitude:-2.901177695450528, longitude:-79.00388756578113}),
+       (i11:Iglesia {name: 'Iglesia San Jose', latitude:-2.8916183701246565, longitude:-78.99734896099474}),
+       (i12:Iglesia {name: 'Iglesia Todos Santos', latitude:-2.9031388631573396, longitude:-79.00178000080734}),
+       (i13:Iglesia {name: 'Iglesia Virgen de Bronce', latitude:-2.911179599278411, longitude:-79.00906035950626}),
+       (i14:Iglesia {name: 'Iglesia San Juan Bosco', latitude:-2.9155172041314654, longitude:-79.0151533635472}),
+       (i15:Iglesia {name: 'Iglesia La Merced de Turi', latitude:-2.922479951253871, longitude:-79.01014830720109}),
+       (m16:Museo {name: 'Museo de la Cuidad', latitude:-2.8958838762912897, longitude:-79.00442750457631}),
+       (m17:Museo {name: 'CEMUART', latitude:-2.897899743152235, longitude:-79.00715884884885}),
+       (m18:Museo {name: 'Escuela Central', latitude:-2.8956522658158304, longitude:-79.0046422329176}),
+       (m19:Museo {name: 'Museo Municipal de Arte Moderno', latitude:-2.896132324710648, longitude:-79.01135884888197}),
+       (m20:Museo {name: 'Museo Remigio Crespo Toral', latitude:-2.901796312817095, longitude:-79.00393710778366}),
+       (m21:Museo {name: 'Museo Culturas Aborigenes', latitude:-2.9025594291368386, longitude:-79.00221485892064}),
+       (m22:Museo {name: 'Museo de la Historia de la Medicina', latitude:-2.902644219807225, longitude:-79.00459811174869}),
+       (m23:Museo {name: 'Museo de las Madres Conceptas', latitude:-2.8999793670842817, longitude:-79.00255445728362}),
+       (m24:Museo {name: 'Museo Manuel Agustin Landivar', latitude:-2.9048487750896945, longitude:-78.99946775062703}),
+       (m25:Museo {name: 'Museo Pumapungo', latitude:-2.905975276907689, longitude:-78.99684192753661}),
+       (m26:Museo {name: 'Museo Ruinas de Pumapungo', latitude:-2.907192624422742, longitude:-78.99706630499747}),
+       (m27:Museo {name: 'Museo de las Artes de Fuego', latitude:-2.9133944141153774, longitude:-78.99455570276379}),
+       (h28:Hotel {name: 'Hotel del Parque Suites', latitude:-2.8964280399104223, longitude:-79.00487378503043}),
+       (h29:Hotel {name: 'Hotel Check Inn', latitude:-2.8964537360513614, longitude:-79.00669089635277}),
+       (h30:Hotel {name: 'Hotel Inca Real', latitude:-2.8968423901118676, longitude:-79.00682918978083}),
+       (h31:Hotel {name: 'Hotel Morenica del Rosario', latitude:-2.8954515861130496, longitude:-79.00629852895206}),
+       (h32:Hotel {name: 'Hotel Gran Paris', latitude:-2.8956571554014188, longitude:-79.00656868355573}),
+       (h33:Hotel {name: 'Hotel San Juan', latitude:-2.8956378832822196, longitude:-79.00672627374121}),
+       (h34:Hotel {name: 'Hotel Raymipampa', latitude:-2.8950822037042774, longitude:-79.00711542501554}),
+       (h35:Hotel {name: 'Hotel Flore Boutique', latitude:-2.8973595246641226, longitude:-79.00603480660152}),
+       (h36:Hotel {name: 'Hotel Azuay', latitude:-2.8978798709842084, longitude:-79.00611199363075}),
+       (h37:Hotel {name: 'Hotel Milan', latitude:-2.8985672416717687, longitude:-79.00607340011594}),
+       (h38:Hotel {name: 'Hotel La Posada del Rey', latitude:-2.8988113545257606, longitude:-79.00534977171324}),
+       (h39:Hotel {name: 'Hotel Mochilers', latitude:-2.899463392568841, longitude:-79.00513429125095}),
+       (h40:Hotel {name: 'Hotel Yakumama', latitude:-2.900417358881658, longitude:-79.00449749825135}),
+       (t41:Turistico {name: 'Plazoleta Cruz del Vado', latitude:-2.898388479314932, longitude:-79.00945022200291}),
+       (t42:Turistico {name: 'La Compania', latitude:-2.9013648626127484, longitude:-79.00366134520698}),
+       (t43:Turistico {name: 'Plaza del Otorongo', latitude:-2.897900266066416, longitude:-79.01121690147185}),
+       (t44:Turistico {name: 'Millenium Plaza', latitude:-2.906101364326483, longitude:-79.00225915062101}),
+       (t45:Turistico {name: 'Estadio Alejandro Serrano', latitude:-2.906640920884145, longitude:-79.00552349414578}),
+       (t46:Turistico {name: 'Planetario Cuidad de Cuenca', latitude:-2.9051034878691477, longitude:-79.0041384517553}),
+       (t47:Turistico {name: 'Bello Horizonte', latitude:-2.9182379802179312, longitude:-79.00989731217473}),
+       (t48:Turistico {name: 'Mirador de Turi', latitude:-2.9222154427214457, longitude:-79.00999377872833}),
+       (t49:Turistico {name: 'Columpio de Turi', latitude:-2.922160124745732, longitude:-79.01197550984092}),
+       (t50:Turistico {name: 'Mall del Rio', latitude:-2.9188226017953927, longitude:-79.01460345770872}),
+
+
+       (i1)-[:CONNECTION {distancia: 0.750}]->(i2),
+       (i1)-[:CONNECTION {distancia: 0.190}]->(i3),
+       (i1)-[:CONNECTION {distancia: 1.300}]->(m24),
+       (i1)-[:CONNECTION {distancia: 0.064}]->(h35),
+       (i1)-[:CONNECTION {distancia: 2.000}]->(t46),
+       (i1)-[:CONNECTION {distancia: 6.300}]->(i15),
+
+       (i2)-[:CONNECTION {distancia: 0.850}]->(i4),
+       (i2)-[:CONNECTION {distancia: 0.650}]->(i5),
+       (i2)-[:CONNECTION {distancia: 2.400}]->(m25),
+       (i2)-[:CONNECTION {distancia: 1.600}]->(t46),
+       (i2)-[:CONNECTION {distancia: 6.500}]->(h33),
+
+       (i6)-[:CONNECTION {distancia: 0.450}]->(i7),
+       (i6)-[:CONNECTION {distancia: 0.550}]->(h34),
+       (i6)-[:CONNECTION {distancia: 1.230}]->(m19),
+       (i6)-[:CONNECTION {distancia: 0.500}]->(i14),
+       (i6)-[:CONNECTION {distancia: 1.500}]->(t44),
+
+       (p41)-[:CONNECTION {distancia: 0.190}]->(t48),
+	   (p41)-[:CONNECTION {distancia: 0.650}]->(t49),
+	   (t49)-[:CONNECTION {distancia: 0.850}]->(h23),
+	   (t49)-[:CONNECTION {distancia: 0.850}]->(h24),
+	   (t49)-[:CONNECTION {distancia: 0.600}]->(h25),
+	   (t49)-[:CONNECTION {distancia: 0.600}]->(h26),
+	   (t49)-[:CONNECTION {distancia: 1.1}]->(h27),
+	   (h26)-[:CONNECTION {distancia: 2.50}]->(h28),
+	   (i3)-[:CONNECTION {distancia: 1.5}]->(i12),
+	   (i3)-[:CONNECTION {distancia: 1.3}]->(h29),
+	   (i3)-[:CONNECTION {distancia: 1.7}]->(i44),
+	   (i3)-[:CONNECTION {distancia: 1.3}]->(i30),
+	   (i4)-[:CONNECTION {distancia: 0.600}]->(i11),
+	   (i4)-[:CONNECTION {distancia: 0.190}]->(h31),
+	   (i4)-[:CONNECTION {distancia: 0.850}]->(h32),
+	   (i4)-[:CONNECTION {distancia: 2}]->(i10),
+	   (i11)-[:CONNECTION {distancia: 1}]->(i20),
+	   (i10)-[:CONNECTION {distancia: 0.220}]->(h33),
+	   (i10)-[:CONNECTION {distancia: 1.2}]->(i16),
+	   (i10)-[:CONNECTION {distancia: 0.800}]->(i18),
+	   (i10)-[:CONNECTION {distancia: 0.190}]->(h36),
+	   (i10)-[:CONNECTION {distancia: 0.450}]->(i17),
+	   (i16)-[:CONNECTION {distancia: 2.5}]->(p42),
+	   (i16)-[:CONNECTION {distancia: 1.4}]->(p34),
+	   (i5)-[:CONNECTION {distancia: 0.550}]->(h35),
+	   (i5)-[:CONNECTION {distancia: 0.500}]->(i19),
+	   (i5)-[:CONNECTION {distancia: 0.350}]->(t50),
+	   (i5)-[:CONNECTION {distancia: 2.3}]->(i13),
+	   (i19)-[:CONNECTION {distancia: 1.9}]->(p43)
+
+
+MATCH (start:iglesia {name: "Catedral de la Inmaculada Concepcion"}), (end:iglesia {name: "Iglesia La Merced de Turi"})
+CALL gds.alpha.shortestPath.astar.stream({
+  nodeQuery: 'MATCH (i:iglesia) RETURN id(i) AS id',
+  relationshipQuery: 'MATCH (i1:iglesia)-[r:CONNECTION]->(i2:iglesia) RETURN id(i1) AS source, id(i2) AS target, r.distancia AS distancia',
+  startNode: start,
+  endNode: end,
+  relationshipWeightProperty: 'distancia',
+  propertyKeyLat: 'latitude',
+  propertyKeyLat: 'longitude'
+})
+YIELD nodeId, cost
+RETURN gds.util.asNode(nodeId).name AS station, cost
+
+
+
+
+
+
+
+
+
